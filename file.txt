@@ -1,0 +1,17 @@
+Write a class that will represent a Card object including the following fields (data) and methods. 
+
+Your object should have 2 fields:
+
+an integer for rank (1-13 to represent the number, ace, jack, queen, or king) and
+a String for suit (diamond, heart, club, spade).
+You will write the following constructor and method:
+
+public Card (int rank, String suit)
+Constructs a new Card object with rank as the rank and suit as the suit.
+public int compareRank (Card other)
+Compares our rank to the other Card’s rank.
+Returns a negative number if our rank is less than the other’s rank, 0 if our rank is equal to the other’s rank, or a positive number if our rank is greater than the other’s rank.
+public boolean compareSuit (Card other)
+Returns true if our suit is the same as the other Card’s suit and false otherwise.
+public String toString()
+Returns a String representation of our Card in the format of “rank suit”. For example, if we have a card representing the jack of spades is would return “11 spade”.
